@@ -1,0 +1,5 @@
+{
+	"nanostack": {
+		"configuration": "thread_router"
+	}
+}

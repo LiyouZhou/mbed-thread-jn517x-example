@@ -1,0 +1,24 @@
+{
+  "name": "mbed-thread-example",
+  "version": "0.0.19",
+  "description": "mbedOS coap example project",
+  "private": true,
+  "keywords": [],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "sal-stack-nanostack": "^3.0.0",
+    "sal-stack-nanostack-eventloop": "^1.0.0",
+    "nanostack-libservice": "^3.0.0",
+    "mbed-drivers": "~0.11.1",
+    "mbed-client-c": "^1.0.0"
+  },
+  "targetDependencies": {
+    "k64f": {
+      "atmel-rf-driver": "^1.0.0"	
+    },
+    "jn517x": {
+      "nxp-rf-driver": "~0.0.1"
+    }
+  },
+  "bin": "./source"
+}

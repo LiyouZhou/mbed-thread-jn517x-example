@@ -184,13 +184,31 @@ Whenever you run your example application, it will register with the mbed Device
 
 ## Build instructions
 
+### Prepare components
+
+In this demonstrator we are going to use specific version of cmsis-core. This particular branch is available in here https://github.com/ARMmbed/cmsis-core/tree/dev_nxp
+
+Clone it and `yt link`
+
+In this demonstrator we are going to use specific version of mbed-hal. This particular branch is available in here https://github.com/ARMmbed/mbed-hal/tree/dev_nxp
+
+Clone it and `yt link`
+
+In this demonstrator we are going to use specific version of minar. This particular tag is available in here https://github.com/ARMmbed/minar/tree/v1.0.0
+
+Clone it and `yt link`
+
+
 ### Installing and building
 
 1. Install Yotta. See instructions [here](http://docs.yottabuild.org/#installing).
 2. Install the needed LPCXpresso toolchains availble in https://www.lpcware.com/lpcxpresso/downloads/windows (`arm-none-eabi-gcc`).
 3. `cd mbed-thread-jn517x-example`
-4. Set up target device, `yotta target nxpdk5-jn517x-gcc`
-5. Type `yotta build`
+4. `yt link cmsis-core`
+5. `yt link mbed-hal`
+6. `yt link minar`
+7. Set up target device, `yotta target nxpdk5-jn517x-gcc`
+8. Type `yotta build`
 
 The binary file will be created to `/build/nxpdk5-jn517x-gcc/source/` folder.
 

@@ -2,7 +2,6 @@
   "name": "mbed-thread-example",
   "version": "0.0.19",
   "description": "mbedOS coap example project",
-  "private": true,
   "keywords": [],
   "license": "Apache-2.0",
   "dependencies": {

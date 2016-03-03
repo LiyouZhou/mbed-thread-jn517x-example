@@ -20,7 +20,7 @@
 #include "sn_coap_header.h"
 #include "sn_nsdl.h"
 
-#define DEBUG(...)
+#define DEBUG(x,fmt,...) printf(fmt, ##__VA_ARGS__)
 
 /* Resource types */
 #define RESOURCE_TYPE_IPV6 "ns:v6addr"

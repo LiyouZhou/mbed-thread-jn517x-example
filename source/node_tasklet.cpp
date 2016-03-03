@@ -36,8 +36,8 @@
 #include "nanostack/thread_management_if.h"
 #include "nanostack/thread_dhcpv6_server.h"
 
-#define THREAD_NTW_PAN_ID  		0x0691
-#define RF_CHANNEL         		24
+#define THREAD_NTW_PAN_ID  		0xFACE
+#define RF_CHANNEL         		13
 #define THREAD_PROTOCOL_ID 		3
 #define THREAD_PROTOCOL_VERSION 1
 
